@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x: hidden;
+    background: rgb(159, 159, 159);
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    background: linear-gradient(to top, rgb(124, 124, 124), rgb(255, 255, 255));
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    color: #ea6060;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:#112434;
+    border-radius: 20px;
+}
+nav li a:hover, nva li a.active{
+    background: #112434;
+    color: #fff;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parallax img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.parallax::before {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 110%;
+    height: 100px;
+    z-index: 1000;
+    filter: blur(8px);
+    background: linear-gradient(to bottom,rgb(142, 142, 142),  #373737);
+    z-index: 101;
+}
+#title{
+    position: absolute;
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    z-index: 101;
+}
+.content{
+    position: relative;
+    padding: 50px 100px;
+    background: #373737;
+    color: #fff;
+}
+.content h2{
+    font-size: 3em;
+    margin:15px;
+}
+.content p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#BG{
+    z-index: 102;
+}
+
+#WR{
+    z-index: 102;
+}
+
+#WL{
+    z-index: 102;
+}
+
+
+
+/*
+.side-menu{
+    width: 300px;
+    height: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #3381b0,#c2196c);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 0px 10px hsla(240, 50%, 20%, .6);
+}
+.side-menu form{
+    display: flex;
+    margin: 0 10px 50px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+.side-menu input, .side-menu button{
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #fff;
+}
+.side-menu input:focus, .side-menu button:focus{
+    outline: none;
+}
+.side-menu input::placeholder{
+    color: #fff;
+}
+.side-menu input{
+    width: 230px;
+}
+.side-menu button{
+    width: 50px;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+/* 若設定一般border會把整塊貼滿，不好看 
+
+nav a + a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: 10px;
+    border-top: 1px solid rgba(255, 255, 255, .4) ;
+}
+nav a .tou{
+    margin-right: -1.1em;
+    transform: scale(0);
+    transition: .3s;
+}
+nav a:hover .tou{
+    margin-right: 0em;
+    transform: scale(1);
+}*/
