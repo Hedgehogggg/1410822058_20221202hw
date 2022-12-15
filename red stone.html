@@ -8,26 +8,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-    <link href="css/web.css" rel="stylesheet">    
+    <link href="css/web.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
 </head>
+
+
 
 <body>
     <header>
         <a href="#" class="logo">-*-*紅石中繼器*-*-</a>
-        
     </header>
-
-    <!--<header>
-        <ul class="nav">
-            <li><a href="#" class="active">關於紅石</a></li>
-            <li><a href="#">紅石概念</a></li>
-            <li><a href="#">紅石介紹</a></li>
-            <li><a href="#">紅石素材</a></li>
-            <li><a href="#">紅石應用</a></li>
-            <li></li>
-        </ul>
-    </header>-->
 
     <section class="parallax">
         <img src="img/1.png" id="BG">
@@ -38,31 +30,171 @@
         <img src="img/6.png" id="HD">
     </section>
     
-    <section class="content">
-        <h2>Minecraft 紅石</h2>
-        <p>紅石電路（Redstone circuits）為玩家建造的，可以用於控制或啟動其他機械的結構。
-
-            電路本身既可以被設計為用於響應玩家的手動啟動，也可以讓其自動工作——或是反覆輸出訊號，或是響應非玩家引發的變化，例如生物移動、物品掉落、植物生長、日夜更替等等。Minecraft中能夠被紅石控制的機械類別幾乎覆蓋了你能夠想像到的極限，小到最簡單的機械（如自動門與光開關），大到占地巨大的電梯、自動農場、小遊戲平台，甚至遊戲內建造的計算機。了解如何構建和使用紅石電路及其可控制的機制能極大地增加Minecraft中可遊玩的深度。
-            
-            紅石電路的主題非常廣泛，本條目只是紅石電路的一個概述。點擊各章節的主條目可以查看詳細資訊。
-    </p>
-    </section>
-
-    <script src="js/web.js"></script>
+<!--
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#B">紅石元件</a>
+            </div>
+            <div class="col">
+                <a href="#B">紅石元件</a>
+            </div>
+            <div class="col">
+                <a href="#B">紅石元件</a>
+            </div>
+            <div class="col">
+                <a href="#B">紅石元件</a>
+            </div>
+            <div class="col">
+                <a href="#B">紅石元件</a>
+            </div>
+        </div>
+    </div>
+-->
 
     <div class="side-menu">
         <form>
             <input type="search" placeholder="請輸入關鍵字">
             <button><i class="fas fa-search"></i></button>
         </form>
-        <nav>
-            <a href="#"><i class="tou fab fa-affiliatetheme"></i>關於紅石</a>
-            <a href="#"><i class="tou fab fa-alipay"></i>紅石概念</a>
-            <a href="#"><i class="tou fas fa-ambulance"></i>紅石素材</a>
-            <a href="#"><i class="tou fas fa-american-sign-language-interpreting"></i>紅石介紹</a>
-            <a href="#"><i class="tou fab fa-angellist"></i>紅石應用</a>
-        </nav>
+        
+        <div class="container">
+            <nav>
+                    <div class="row">
+                    <div class="col-md"><a href="#A"><i class="tou"></i>關於紅石</a></div>
+                    <div class="col-md"><a href="#B"><i class="tou"></i>紅石元件</a></div>
+                    <div class="col-md"><a href="#"><i class="tou"></i>紅石電路</a></div>
+                    <div class="col-md"><a href="#"><i class="tou"></i>紅石機關</a></div>
+                    <div class="col-md"><a href="#"><i class="tou"></i>紅石應用</a></div>
+            </div>
+            </nav>
+        </div>
+        
     </div>
+
+    <div id="A" class="content">
+        <h2>Minecraft 關於紅石</h2>
+        <p>紅石電路（Redstone circuits）為玩家建造的，可以用於控制或啟動其他機械的結構。<br>
+
+            電路本身既可以被設計為用於響應玩家的手動啟動，也可以讓其自動工作——或是反覆輸出訊號，或是響應非玩家引發的變化，例如生物移動、物品掉落、植物生長、日夜更替等等。<br>
+            Minecraft中能夠被紅石控制的機械類別幾乎覆蓋了你能夠想像到的極限，小到最簡單的機械（如自動門與光開關），大到占地巨大的電梯、自動農場、小遊戲平台，甚至遊戲內建造的計算機。<br>
+            了解如何構建和使用紅石電路及其可控制的機制能極大地增加Minecraft中可遊玩的深度。<br>
+            紅石電路的主題非常廣泛，本條目只是紅石電路的一個概述。<br>
+            點擊各章節的主條目可以查看詳細資訊。
+    </p>
+    </div>
+
+    <div id="B" class="content">
+        <h2>Minecraft 紅石元件</h2>
+        <p>紅石元件分為電源、傳輸和機械三大類<br><br>
+
+            1.電源類:<br><br>
+            
+            紅石方塊(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:能作為永久性紅石電源使用<br><br>
+            
+            按鈕(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:可產生脈衝訊號，右鍵點擊使用，可被投擲物觸發。可使附著方塊產生訊號等級15的能量<br><br>
+            
+            日光感測器(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:0~15)<br>
+            介紹:訊號等級隨日照亮度變化，日照亮度越高訊號等級越高，若右鍵將其改變為反向日光感測器則反之。<br><br>
+            
+            感測鐵軌(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:當礦車經過時，可產生脈衝訊號。若搭配紅石比較器使用，可偵測漏斗/儲物箱礦車內物品數量。<br><br>
+            
+            講台(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:0~15)<br>
+            介紹:訊號隨講台上書本翻頁頁數變化，第一頁為輸出訊號等級為1，十五頁以上等級為15。<br><br>
+            
+            控制桿(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:作為電路開關使用。可使附著方塊產生訊號等級15的能量<br><br>
+            
+            偵測器(類型:非實體方塊/輸入端:無/輸出端:後端/訊號等級:15)<br>
+            介紹:感測前端方塊變化，當前端方塊變化時產生極短的脈衝訊號<br><br>
+            
+            壓力板(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:當上方存在生物/物品時，可產生紅石訊號。<br><br>
+            
+            紅石火把(類型:非實體方塊/輸入端:無/輸出端:附著端以外/訊號等級:15)<br>
+            介紹:能向附著端以外的所有方向傳輸紅石訊號。若附著端受到紅石訊號，則會使其無法產生紅石訊號。<br><br>
+            
+            標靶(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:1~15)<br>
+            介紹:被終界之眼以外的投射物擊中時，會產生1~15的紅石訊號，訊號強度隨命中位置改變，越趨近中心訊號越強。其能夠改變紅石粉的方向但不使其充能。<br><br>
+            
+            陷阱儲物箱(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:1~15)<br>
+            介紹:被開啟時可輸出紅石訊號，訊號強度隨開啟人數變化，人數越多訊號越強。<br><br>
+            
+            絆線鉤(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:將絆線鉤放置在方塊上，使用線讓兩個半線鉤相連，當有物品/生物觸碰到絆線鉤時，向絆線鉤附著方塊充能等級15訊號。<br><br>
+            
+            避雷針(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:15)<br>
+            介紹:能吸收646464範圍內的閃電，當被閃電擊中時向附著方塊充能等級15訊號。<br><br>
+            
+            伏聆振測器(類型:非實體方塊/輸入端:無/輸出端:相鄰/訊號等級:1~15)<br>
+            介紹:可檢測其周圍8格方塊內的震動，當感測到震動時向周圍傳輸紅石訊號。訊號等級隨震動距離改變，距離越近訊號越強。<br><br>
+            2.傳輸類
+            
+            紅石粉(類型:非實體方塊/輸入端:相鄰/輸出端:指向/訊號等級:0~15)<br>
+            介紹:可放置在任何非透明方塊頂部，作為連接使用，當其充能時可使下方實體方塊強充能。訊號等級隨延長距離逐漸降低，每延長1格訊號等級-1。<br><br>
+            
+            紅石比較器(類型:非實體方塊/輸入端:後端及左右兩端/輸出端:前端/訊號等級:0~15)<br>
+            介紹:可放置在任何非透明方塊頂部，有比較模式與減法模式兩種模式。<br><br>
+
+            比較模式，紅石比較器只會在輸入訊號強於側面訊號時輸出的訊號強度與輸入相同，否則無輸出。<br>
+            減法模式，紅石比較器只會在輸入訊號強於側面訊號時輸出兩者的強度之差，否則無輸出。<br><br>
+            
+            紅石中繼器(類型:非實體方塊/輸入端:後端/輸出端:前端/訊號等級:15)<br>
+            介紹:可放置在任何非透明方塊頂部，可重新加強輸出訊號，也可作為訊號延遲使用。<br><br>
+            
+            3.機械類<br><br>
+            
+            鐘(類型:非實體方塊)<br>
+            介紹:充能後發出一次鐘聲<br><br>
+            
+            發射器(類型:實體方塊)<br>
+            介紹:充能後從自身物品欄內隨機發射一件物品，一些物品在被發射器發射時的表現不同<br><br>
+            
+            
+            投擲器(類型:實體方塊)<br>
+            介紹:充能後將物品丟或將物品注入另一個容器<br><br>
+            
+            
+            門/柵欄門/地板門(類型:非實體方塊)<br>
+            介紹:充能後門將打開始實體通過<br><br>
+            
+            
+            黏性活塞/活塞(類型:實體方塊)<br>
+            介紹:推動前方非透明方塊，有些方塊被推動時會被擠壓成掉落物，若為黏性活塞則在充能結束後將前方方塊拉回<br><br>
+            
+            
+            音階盒(類型:實體方塊)<br>
+            介紹:充能後撥放預設聲音<br><br>
+            
+            
+            動力鐵軌(類型:非實體方塊)<br>
+            介紹:充能後提供上方礦車慣性力<br><br>
+            
+            
+            觸發鐵軌(類型:非實體方塊)<br>
+            介紹:充能後使上方礦車搖晃，能使礦車上的非玩家生物下車<br><br>
+            
+            
+            紅石燈(類型:實體方塊)<br>
+            介紹:充能後發出亮度等級15的光<br><br>
+            
+            漏斗(類型:非實體方塊)<br>
+            介紹:能夠吸自動收上方容器內物品或掉落物，並將物品傳輸至漏口容器。充能後失去吸收和傳輸物品功能<br><br>
+            
+            TNT(類型:非實體方塊)<br>
+            介紹:充能或被點燃時，變成點燃的TNT，變成實體方塊且受重力影響，可被推動或受水/岩漿流動影響。<br><br>
+    </p>
+    </div>
+
+
+    <script src="js/web.js"></script>
+
+    
+
+
     
 </body>
 </html>
