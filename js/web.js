@@ -15,7 +15,7 @@
             x: 337,
             scrollTrigger:
             {
-             start: "10% 15%",
+             start: "10% 60%",
              end: "30% 20%",
              scrub: true,
             }
@@ -26,7 +26,7 @@
             x: -337,
             scrollTrigger:
             {
-             start: "10% 15%",
+             start: "10% 60%",
              end: "30% 20%",
              scrub: true,
             }
@@ -38,8 +38,9 @@
             y: 150,
             scrollTrigger:
             {
-             start: "10% 15%",
+             start: "10% 60%",
              end: "30% 20%",
              scrub: true,
+             markers:true,
             }
         })
