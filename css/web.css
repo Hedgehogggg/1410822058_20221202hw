@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000;
+    z-index: 105;
 }
 .logo{
     color: #ea6060;
@@ -117,7 +117,7 @@ nav li a:hover, nva li a.active{
     background: linear-gradient(45deg, #e6cd51,#d6a748);
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 0px 10px hsla(240, 50%, 20%, .6);
+    box-shadow: 5px 0px 10px rgba(68, 77, 25, 0.6);
 }
 .side-menu form{
     display: flex;
@@ -144,8 +144,10 @@ nav li a:hover, nva li a.active{
     width: 50px;
 }
 .side-menu{
-    z-index: 2000;
+    z-index: 500;
 }
+
+
 nav a{
     display: block;
     padding: 10px;
@@ -153,7 +155,6 @@ nav a{
     text-decoration: none;
     position: relative;
 }
-
 
 nav a + a::before{
     content: '';
