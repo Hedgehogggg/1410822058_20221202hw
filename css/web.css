@@ -11,7 +11,7 @@ body{
 }
 header{
     position: fixed;
-    background: linear-gradient(to top, rgb(124, 124, 124), rgb(255, 255, 255));
+    background: linear-gradient(to top, rgb(155, 155, 155), rgb(255, 255, 255));
     top:0;
     left:0;
     width: 100%;
@@ -95,7 +95,7 @@ nav li a:hover, nva li a.active{
 }
 
 #BG{
-    z-index: 102;
+    z-index: 103;
 }
 
 #WR{
@@ -138,10 +138,10 @@ nav li a:hover, nva li a.active{
     color: #fff;
 }
 .side-menu input{
-    width: 230px;
+    width: 80%;
 }
 .side-menu button{
-    width: 50px;
+    width: 20%;
 }
 .side-menu{
     z-index: 500;
