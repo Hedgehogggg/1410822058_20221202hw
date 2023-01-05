@@ -12,10 +12,10 @@
 
         gsap.to("#WR",
         {
-            x: 337,
+            x: 537,
             scrollTrigger:
             {
-             start: "10% 60%",
+             start: "10% 65%",
              end: "30% 20%",
              scrub: true,
             }
@@ -23,10 +23,10 @@
 
         gsap.to("#WL",
         {
-            x: -337,
+            x: -537,
             scrollTrigger:
             {
-             start: "10% 60%",
+             start: "10% 65%",
              end: "30% 20%",
              scrub: true,
             }
@@ -38,7 +38,7 @@
             y: 150,
             scrollTrigger:
             {
-             start: "10% 60%",
+             start: "10% 65%",
              end: "30% 20%",
              scrub: true,
              markers:true,
