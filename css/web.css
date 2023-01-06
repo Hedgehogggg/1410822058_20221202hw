@@ -124,15 +124,6 @@ nav li a:hover, nva li a.active{
     position: sticky;
     top:0
 }
-.side-menu form{
-    display: flex;
-    margin: 0 10px 50px;
-    border-radius: 100px;
-    border: 1px solid rgba(255, 255, 255, .4);
-
-    position: sticky;
-    top:0
-}
 .side-menu input, .side-menu button{
     border: none;
     padding: 5px 10px;
