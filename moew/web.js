@@ -41,6 +41,6 @@
              start: "10% 65%",
              end: "30% 20%",
              scrub: true,
-             markers:true,
+             /*markers:true,*/
             }
         })
