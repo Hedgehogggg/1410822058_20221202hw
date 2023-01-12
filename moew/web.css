@@ -119,7 +119,7 @@ nav li a:hover, nva li a.active{
     height: 100%;
     padding: 0px 0;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #e6cd51,#d6a748);
+    background: linear-gradient(180deg, #51a8e6,#4867d6);
     display: flex;
     flex-direction: column;
     box-shadow: 5px 0px 10px rgba(68, 77, 25, 0.6);
