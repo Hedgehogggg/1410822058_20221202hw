@@ -14,8 +14,8 @@ header{
     background: rgb(214, 214, 214);                /*linear-gradient(to top, rgb(125, 125, 125), rgb(255, 255, 255));*/
     top:0;
     left:0;
-    width: 100%;
-    padding: 30px 100px;
+    /*width: 100%;
+    padding: 30px 100px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,6 +104,9 @@ nav li a:hover, nva li a.active{
 
 #WL{
     z-index: 102;
+}
+#door{
+    z-index: 101:
 }
 
 
