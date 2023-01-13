@@ -12,7 +12,7 @@
 
         gsap.to("#WR",
         {
-            x: 537,
+            x: 1537,
             scrollTrigger:
             {
              start: "10% 65%",
@@ -23,7 +23,7 @@
 
         gsap.to("#WL",
         {
-            x: -537,
+            x: -1537,
             scrollTrigger:
             {
              start: "10% 65%",
